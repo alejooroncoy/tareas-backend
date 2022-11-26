@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 app.app_context().push()
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://cmaytausrtareas:sv5BoD7q7XT29yGxL2PtBQ6LBLmoKyFu@dpg-cdu3rg1a6gdv3spdf9i0-a.oregon-postgres.render.com/cmaytadbtareas'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://alejo:L4bzqyxP01iOTQN7iFBvmcrfvyCpehbH@dpg-ce12n1ha6gdsa62ir5pg-a/db_alejooroncoy'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
